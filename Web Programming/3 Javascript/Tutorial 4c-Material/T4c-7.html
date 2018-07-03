@@ -1,0 +1,30 @@
+<html>
+  <head><title>Do it yourself</title></head>
+ <body>
+    <script type = "text/javascript">
+     var name, year_of_birth, town;
+     var age;
+     var today = new Date();
+
+      name = window.prompt("Enter your name");
+	  year_of_birth = window.prompt("Enter Enther The  Year of Birth");
+	  town = window.prompt("Enter Your Hometown");
+  
+         year_value = parseFloat(year_of_birth);
+      age = today.getFullYear() - year_value;
+     
+   </script>
+
+   <h1><font color="red">My Profiles: </font> </h1>
+
+   <script type = "text/javascript">
+
+   
+   
+   
+	  document.writeln("My name is: "+ name + "<br />I am: "+ age + " years old <br />I am from: "+ town);
+   
+   </script>
+
+ </body>
+</html>

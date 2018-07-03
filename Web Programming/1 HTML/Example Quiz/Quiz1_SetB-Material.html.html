@@ -1,0 +1,107 @@
+<!--
+********************************************************
+* Quiz 01: HTML					       *
+* 						       *
+* Date:                                                *
+* Name:                                                *
+* Matric No: 					       *
+* Section :                                            *
+********************************************************
+-->
+
+
+<html>
+<head>
+<title>Popcorn Sales Form</title>
+</head>
+
+<body style = "background-color:#99CCFF" >
+<h2> Welcome to Millenium Gymnastic Booster Club Popcorn Sales </h2>
+<!-- The next line gives the address of the CGI program -->
+
+<form action="">
+
+
+<!-- Insert A borderless table of text widgets for name, address, city and gender -->
+<table border ="1">
+    <tr> 
+    <td><i>Buyer's Name:<i>
+	<td><input text ="text">
+	<td rowspan = "4"><img src ="mahathir.jpg">
+</tr>
+	
+<tr>
+<td><i>Street Adress:<i>
+<td><input text ="text">
+</tr>	
+	
+<tr>
+<td><i>City, State,Zip: <i>
+<td><input text ="text">
+
+</tr>	
+	
+<tr>
+<td><i>Gender:<i>
+<td><select>
+<option selected value = "male">Male
+<option value = "female">Female
+</select>
+</tr>	
+	</table>
+<br><br>
+
+
+<!-- Insert A bordered table for items orders -->
+<table border="2"; width="50%">
+
+<!-- First, insert the column headings -->
+	<tr> </tr>
+
+<!-- Now, insert the three of table data entries -->
+	<tr> 
+	<td align ="middle"bgcolor = "yellow">Product Name
+	<td bgcolor = "yellow">Price
+	<td align = "middle"bgcolor = "yellow">Quantity
+	</tr>
+<td bgcolor = "orangered" align ="middle">Unpopped Popcorn
+<td bgcolor = "orangered">$3.00
+<td bgcolor = "orangered" align= "middle"><input text ="text" size ="10">
+	<tr> 
+<td bgcolor = "orangered" align ="middle">Caramel Popcorn
+<td bgcolor = "orangered">$4.00
+<td bgcolor = "orangered" align= "middle"><input text ="text" size ="10">
+</tr>
+<tr> 
+<td bgcolor = "orangered" align ="middle">Caramel Nut Popcorn
+<td bgcolor = "orangered">$5.00
+<td bgcolor = "orangered" align= "middle"><input text ="text" size ="10">
+</tr>
+<tr> 
+<td bgcolor = "orangered" align ="middle">Toffey Nut Popcorn
+<td bgcolor = "orangered">$6.00
+<td bgcolor = "orangered" align= "middle"><input text ="text" size ="10">
+</tr>
+</table>
+
+
+<!-- Now, insert the radio button for the payment method -->
+<h2> Payment Method: </h2>
+<p>
+<input type ="radio" checked>Cash  <input type ="radio" >Creadit Card
+</p>
+
+
+<!-- Lastly, insert the submit and reset buttons -->
+<p>
+	Please write your comments:<br>
+	<textarea name ="comment" rows ="4" cols ="50">
+	</textarea>
+<br><br>
+	<input type ="submit" name ="submit" value ="Submit Order">&nbsp
+	<input type ="reset" name ="reset" value ="Clear Order Form">
+	</p>
+
+</form> 
+</body>
+</html>

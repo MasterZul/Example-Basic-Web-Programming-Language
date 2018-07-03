@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document : write your CSS code here. Make sure you are apply css selector*/
+div{
+
+width: 1230px;
+margin:  auto;
+padding: 10px;
+border: 5px solid #dedede;
+background-color: white:
+
+}
+
+.banner{
+
+height: 150px;
+border: 5px solid #e3e3e3;
+background-size: cover;
+background-image: url("banner.jpg");
+background-repeat: no-repeat;
+
+}
+
+.navigation{
+
+width: 1000px;
+height: 20px;
+border: 3px solid #e3e3e3;
+margin: 20px;
+background-image:url("nav.jpg");
+background-repeat: no-repeat;
+width: auto;
+
+}
+
+.content_area{
+float: left;
+width: 755px;
+height: 550px;
+margin: 20px 0 20px 0;
+padding: 10px;
+border: 3px solid #e3e3e3;
+text-align: justify;
+background-color: #CCC;
+
+
+
+}
+
+.sidebar{
+
+float: right;
+width: 250px;
+height: 560px;
+border: 3px solid #e3e3e3;
+margin-top: 20px;
+background-color: #CCC;
+background-image: url("sidebar.jpg");
+background-repeat: no-repeat;
+background-position: center;
+
+
+
+}
+
+.footer{
+clear: both;
+width: auto;
+height: 70px;
+margin-top: 20px;
+background-image: url("footer.jpg");
+border: 3px solid #e3e3e3;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+body{
+
+
+min-width: 300px;
+height: auto;
+width: auto;
+background-size: cover;
+background-image: url("saya.JPG");
+background-repeat: no-repeat;
+}
